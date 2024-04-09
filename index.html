@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="dr">Driving Licence Renewal</h1>
+    <div id="progressBar"></div>
+    <div class="screen" id="screen1">
+        <h1 class="lets">Let's get started!</h1>
+        <p class="padd">Add your details(as per your registered records)</p>
+        <div class="question">
+            <label for="text1">Name</label>
+            <input type="text" class="inputtext" placeholder="Enter Name" id="text1">
+        </div>
+        <div class="question">
+            <label for="text2">Place where driving licence was issued</label>
+            <input type="text" class="inputtext" placeholder="Enter Place Name" id="text2">
+        </div>
+        <div class="question">
+            <label for="select1">Issued Year of Licence</label>
+            <select id="select1" class="inputtext">
+                <option value="">Choose Issued Year of Licence</option>
+                <option value="option1">2023</option>
+                <option value="option2">2022</option>
+                <option value="option2">2021</option>
+                <option value="option2">2020</option>
+                <option value="option2">2019</option>
+                <option value="option2">2018</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="screen" id="screen2">
+
+        <div class="question">
+            <h1 class="lets">Let's get started!</h1>
+            <p class="padd">Add your details(as per your registered records)</p>
+            <label for="select2">Issue</label>
+            <select id="select2" class="inputtext">
+                <option value="">Choose Issue</option>
+                <option value="option1">Sales</option>
+                <option value="option2">Document Pickup</option>
+                <option value="option2">Document Dispatch</option>
+                <option value="option2">Document Return</option>
+                <option value="option2">Payment</option>
+            </select>
+        </div>
+        <div class="question">
+            <label>Nature of Driving Licence</label>
+            <div class="forflexradio">
+                <div class="radioc">
+                    <input type="radio" id="radio1" name="radioGroup1">
+                    <label for="radio1">Private</label>
+                </div>
+                <div class="radioc">
+                    <input type="radio" id="radio2" name="radioGroup1">
+                    <label for="radio2">Commertial</label>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <label>Type of Previous Driving Licence</label>
+            <div class="forflexradio">
+                <div class="radioc">
+                    <input type="radio" id="radio3" name="radioGroup2">
+                    <label class="pap" for="radio3">Paper Driving Licence</label>
+                </div>
+                <div class="radioc">
+                    <input type="radio" id="radio4" name="radioGroup2">
+                    <label class="pap" for="radio4">Smart Driving Licence</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <marquee behavior="" direction="">Created by K Farooq Abdulla</marquee>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
